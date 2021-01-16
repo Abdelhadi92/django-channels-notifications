@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.1'
 
 base_dir = os.path.dirname(__file__)
 
@@ -28,7 +28,7 @@ setup(
       ],
       keywords='Django Channels Notifications',
       author='Abdelhadi Abu-Shamleh',
-      author_email='a.abushamleh@sit-mena.com',
+      author_email='abushamleh92@gmail.com',
       license='BSD',
       packages=find_packages(exclude=['ez_setup']),
       include_package_data=True,
