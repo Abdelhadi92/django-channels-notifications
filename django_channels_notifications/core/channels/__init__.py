@@ -1,0 +1,3 @@
+from django_channels_notifications.core.channels.database_channel import DatabaseChannel
+from django_channels_notifications.core.channels.unifonic_channel import UnifonicChannel
+from django_channels_notifications.core.channels.mail_channel import MailChannel

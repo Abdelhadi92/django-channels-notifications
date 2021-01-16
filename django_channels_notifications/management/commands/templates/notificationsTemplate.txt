@@ -1,0 +1,13 @@
+from notifications.core import Notification
+from notifications.core.channels import DatabaseChannel
+
+
+class {name}(Notification):
+
+    # Get the notification's delivery channels.
+    def via(self, notifiable):
+        return [DatabaseChannel]
+
+    # Get the dict representation of the notification.
+    def to_database(self, notifiable):
+        pass

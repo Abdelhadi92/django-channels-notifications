@@ -1,0 +1,15 @@
+from notifications.core.channels.base_channel import BaseChannel
+
+
+class {name}(BaseChannel):
+
+    # Send the given notification.
+    def send(self, notifiable, notification):
+        pass
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+mm.pyc
+
+# pycharm project files
+.idea
+django_channels_notifications.egg-info
+dist
+build
+
+# Mac DS_Store Files
+.DS_Store
